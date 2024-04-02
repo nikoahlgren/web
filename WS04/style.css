@@ -23,3 +23,9 @@ ul {
   color: lightgray;
   font-size: 12px;
 }
+
+.linkki {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
