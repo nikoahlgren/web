@@ -19,5 +19,7 @@ ul {
   border-style: dotted;
   border-width: 2px;
   width: 100px;
-
+  height: 100px;
+  color: lightgray;
+  font-size: 12px;
 }
