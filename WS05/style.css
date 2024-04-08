@@ -1,62 +1,25 @@
 
 
-
-
-
-
-
-
-
-
 body {
-
+  background-color: black;
+  color: white;
 }
 
-
-
-
-header {
-
-    text-align: center;
-    background-color: darkgray;
+h1 {
+  font-size: 20px;
 }
 
-
-
-
-nav {
-    
+ol {
+  list-style-type: upper-latin;
 }
-
-
-
-main {
-    
+ul {
+  list-style-type: square;
 }
-
-
-
-aside {
-    
+ .box {
+  border-style: dotted;
+  border-width: 2px;
+  width: 100px;
+  height: 100px;
+  color: lightgray;
+  font-size: 12px;
 }
-
-
-
-section {
-    
-}
-
-
-
-article {
-    
-}
-
-
-
-footer {
-    
-}
-
-
-
