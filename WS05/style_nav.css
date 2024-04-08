@@ -51,15 +51,7 @@ aside {
 
 
 
-section {
-    background-color: #19747E;
-    width: 60%;
-    text-align: left;
-    padding-right: 20px;
-    padding-left: 10px;
-    line-height: 1.4;
-    border-radius: 15px;
-}
+
 
 
 
@@ -71,4 +63,14 @@ article {
 
 footer {
     
+}
+
+
+.child1 {
+    
+    margin-left: 50%; height: 100px;
+}
+
+.child2 {
+    margin-left: 50%; height: 100px;
 }
