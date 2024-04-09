@@ -20,7 +20,7 @@ background-color: #D1E8E2;
 
 
 header {
-
+    border: 2px solid black;
     text-align: center;
     background-color: darkgray;
     border-radius: 15px 40px;
@@ -33,7 +33,7 @@ main {
 
 
 nav {
-
+    border: 2px solid black;
     background-color: #A9D6E5;
     width: 100%;
     text-align: center;
@@ -44,6 +44,7 @@ nav {
 
 
 aside {
+    border: 2px solid black;
     width: 33%;
     box-sizing: border-box;
     float: left;
@@ -51,23 +52,42 @@ aside {
 
 }
 
-
-
-
-
-
-
-article {
+section{
+    border: 2px solid black;
     width: 33%;
-    box-sizing: border-box;
     float: left;
     clear: left;
 }
 
 
 
-footer {
-    width: 100%;
+
+
+article {
+    border: 2px solid black;
+    width: 66%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
+
+footer {
+    border: 2px solid black;
+    width: 100%;
+    clear: both;
+}
+
+#nimi {
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+#kurssi {
+    font-size: 12px;
+    text-align: right;
+}
