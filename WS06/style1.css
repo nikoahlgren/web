@@ -63,3 +63,10 @@ footer {
   text-align: right;
   margin-right: 2px;
 }
+
+#horizontal {
+  background-color: #50727B;
+  width: 100%;
+  text-align: center;
+  border-radius: 25px;
+}
