@@ -42,12 +42,17 @@ body {
     box-sizing: border-box;
     float: left;
     background-color: #35374B;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: center;
   }
   
   section {
     background-color: #35374B;
     width: 41%;
-    float: left;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
     
   }
   
