@@ -37,3 +37,7 @@ body{
     text-align: center;
     border-radius: 25px;
   }
+
+  a:hover {
+    color: red;
+  }
