@@ -12,7 +12,9 @@ body{
     background-image: url("kuvat/taustakuva.jpg");
 }
 
-h1{
+
+
+#otsikko{
     border: 4px dotted white;
     text-align: center;
     margin-right: 750px;
