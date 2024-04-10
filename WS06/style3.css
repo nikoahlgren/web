@@ -2,12 +2,12 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #d1e8e2;
+    background-color: #78A083;
   }
   
   header {
     text-align: center;
-    background-color: darkgray;
+    background-color: #344955;
     border-radius: 15px 40px;
   }
   
@@ -18,7 +18,7 @@ body {
   }
   
   #horizontal {
-    background-color: #a9d6e5;
+    background-color: #50727B;
     width: 100%;
     text-align: center;
     border-radius: 25px;
@@ -26,7 +26,7 @@ body {
   }
 
   #vertical {
-    background-color: #a9d6e5;
+    background-color: #50727B;
     text-align: center;
     border-radius: 25px;
     padding-top: 10px;
@@ -38,15 +38,15 @@ body {
   }
   
   aside {
-    width: 33%;
+    width: 41%;
     box-sizing: border-box;
     float: left;
-    background-color: #e2e2e2;
+    background-color: #35374B;
   }
   
   section {
-    background-color: #a9d6e5;
-    width: 33%;
+    background-color: #35374B;
+    width: 41%;
     float: left;
     
   }
