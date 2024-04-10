@@ -1,0 +1,29 @@
+#wrapper {
+   width: 90%;
+   min-width: 340px;
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+body{
+
+    background-image: url("kuvat/taustakuva.jpg");
+}
+
+h1{
+    border: 4px dotted white;
+    text-align: center;
+    margin-right: 750px;
+
+}
+
+.teksti {
+    background-color: chartreuse;
+    border-radius: 15px;
+    margin-right: 750px;
+
+    
+    
+  }
