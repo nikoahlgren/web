@@ -1,0 +1,21 @@
+
+
+.container1 {
+  background-color: aqua;
+  border-style: dotted;
+  color: black;
+}
+
+.container2 {
+  background-color: aquamarine;
+  border-style: dotted;
+  color: black;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+
+}
