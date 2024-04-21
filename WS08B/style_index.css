@@ -3639,7 +3639,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: black;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -10863,7 +10863,8 @@ html {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 800;
-  color: bla;
+  color: black;
+  font-family: "Sedan", serif;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
@@ -10992,6 +10993,7 @@ p{
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
   }
 }
