@@ -3019,9 +3019,14 @@ textarea.form-control-lg {
  
   position: relative;
   left: 650px;
-  bottom: -120px;
   
 
+}
+
+#loop-nappi {
+  position: relative;
+    left: 650px;
+    bottom: -270px;
 }
 
 .btn-outline-success {
@@ -10919,19 +10924,35 @@ header.masthead .bg-circle-4 {
 }
 
 .sedan-regular {
-  font-family: "Sedan";
+  font-family: "Sedan", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .masthead-heading {
-  font-family: "Sedan";
+  font-family: "Sedan", serif;
 
 }
 
 #footeri {
-  
+  font-family: "Sedan", serif;
   font-size: 72px;
-  font-family: 'Sedan';
+  
+  font-style: italic;
+
+}
+
+#footerp {
+  font-family: "Sedan", serif;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 800;
 
 }
 
@@ -10955,6 +10976,11 @@ header.masthead .bg-circle-4 {
 #laatikko3 {
 
   border-left: 1px solid;
+}
+
+
+p{
+  font-family: monospace;
 }
 
 @media (min-width: 992px) {
