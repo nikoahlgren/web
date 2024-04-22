@@ -103,6 +103,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-image: url(images/Mini.jpg);
+  max-width: 100%;
+  height: auto;
+
 }
 
 hr {
@@ -340,6 +343,7 @@ th {
 
 label {
   display: inline-block;
+  font-family: monospace;
 }
 
 button {
@@ -1993,6 +1997,7 @@ progress {
 }
 
 .form-control {
+    font-family: monospace;
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -2000,9 +2005,9 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #000000;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -8107,7 +8112,8 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: black !important;
+  font-family: monospace;
 }
 
 .text-black-50 {
@@ -10864,7 +10870,7 @@ html {
   letter-spacing: 0.1rem;
   font-weight: 800;
   color: black;
-  font-family: "Sedan", serif;
+  font-family: monospace;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
@@ -10979,6 +10985,16 @@ header.masthead .bg-circle-4 {
   border-left: 1px solid;
 }
 
+#viesti {
+    background-color: transparent;
+    margin-top: 15px;
+
+}
+
+#sposti {
+    
+    margin-top: 10px;
+}
 
 p{
   font-family: monospace;

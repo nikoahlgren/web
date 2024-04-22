@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Super markkinointi</title>
+        <title>yhteyksissä</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -24,8 +24,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#!">rekisteröidy</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">kirjaudu sisään</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Kotisivuille</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Meistä</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,21 +38,37 @@
             <div class="container px-5">
                 <div class="row gx-5 ">
                     <div class="col-lg-8 order-lg-2">
-                        <div class="p-5"><p>Markkinointitoimisto sai alkunsa perustajien vakaumuksesta, että yritysten menestys perustuu vahvaan brändiin ja tehokkaaseen markkinointiin. Heidän tavoitteenaan oli tarjota asiakkailleen kokonaisvaltaisia ratkaisuja, jotka yhdistävät luovuuden ja strategian. Toimiston perustajat halusivat luoda paikan, jossa tiimi voi innostua luomaan merkityksellisiä ja vaikuttavia kampanjoita asiakkaiden puolesta. Tämä intohimo ja näkemys johtivat markkinointitoimiston syntymiseen ja sen kasvuun menestyksekkääksi toimijaksi markkinointialalla.</p></div>
-                            <button type="button" class="btn btn-outline-secondary" id="about-nappi">Meistä!</button>
+                        <div class="p-5">
+                          <form>
+                            <div class="form-group" id="nimi">
+                              <label for="exampleInputEmail1">Nimesi</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nimesi tähän">
+                            </div>
+                            <div class="form-group" id="sposti">
+                              <label for="exampleInputEmail1">Sähköpostiosoitteesi</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sähköposti tähän">
+                              <small id="emailHelp" class="form-text text-muted">Emme ikinä jaa sähköpostiosoitettasi muille.</small>
+                            </div>
+                            <div class="form-group" id="viesti">
+                              <label for="exampleFormControlTextarea1">Viestisi</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                            <button type="button" class="btn btn-outline-secondary" id="about-nappi">Lähetä!</button>
                     </div>
                     
                     <div class="col-lg-4 order-lg-1" id="laatikko1">
                         <div class="p-5">
-                            <h2 class="display-4">Teemme tulosta</h2>
-                            <p>Erikoistumme digitaaliseen markkinointiin tarjoten luovia ratkaisuja ja tuloksellista strategiaa.</p>
+                            <h2 class="display-4">Ollaan yhteyksissä!</h2>
+                            <p>Jätä meille yhteystietosi ja viestisi niin olemme sinuun yhteydessä ja keskustellaan!</p>
                             
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr class="hr" />
+
         <!-- Footer-->
         <hr class="hrf" />
         <footer class="py-5 bg-transparent" id="footeri">
