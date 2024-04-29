@@ -11330,3 +11330,16 @@ p {
     font-weight: bold;
   }
 }
+
+@media (max-width: 992px) {
+    #laatikko1 {
+        display: none;
+    }
+    #laatikko2 {
+        display: none;
+    }
+    #laatikko3 {
+        display: none;
+    }
+
+}
