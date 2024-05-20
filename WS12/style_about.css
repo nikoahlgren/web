@@ -1306,6 +1306,12 @@ p {
  text-align: left;
  font-size: 18px;
 }
+
+#henkilö2 {
+  font-family: monospace;
+  text-align: left;
+  font-size: 18px;
+ }
 @media (min-width: 992px) {
  header.masthead {
   padding-top: calc(10rem + 55px);
