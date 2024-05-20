@@ -6264,6 +6264,23 @@ p {
   font-family: monospace;
 }
 
+
+
+
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+
+
+
+
+
+
+
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
